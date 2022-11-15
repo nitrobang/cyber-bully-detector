@@ -1,0 +1,25 @@
+{
+  "name": "chat-cord",
+  "version": "1.0.0",
+  "description": "An E2E chat web app with cyber bullying detector",
+  "main": "index.js",
+  "repository": "https://github.com/nishit0709/Cyber-Bullying-Detector-",
+  "scripts": {
+    "start": "node server.js;"
+  },
+  "author": "Nishit Pandit",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "node-rsa": "^1.1.1",
+    "python-shell": "^3.0.1",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
